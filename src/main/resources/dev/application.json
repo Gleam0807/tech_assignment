@@ -1,0 +1,29 @@
+{
+  "default": "was",
+  "port": 8090,
+  "blocked_extension": "exe,bat",
+  "servers": [
+    {
+      "server_name": "was",
+      "domain": "www.nhn1.com",
+      "http_root": "/src/main/webapp1/WEB-INF",
+      "source": {
+        "index": "index.html",
+        "403": "/403.html",
+        "404": "/404.html",
+        "500": "/500.html"
+      }
+    },
+    {
+      "server_name": "web",
+      "domain": "www.nhn2.com",
+      "http_root": "/src/main/webapp2/WEB-INF",
+      "source": {
+        "index": "index.html",
+        "403": "/403.html",
+        "404": "/404.html",
+        "500": "/500.html"
+      }
+    }
+  ]
+}

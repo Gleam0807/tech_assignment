@@ -1,0 +1,12 @@
+{
+  "mapping_package":[
+    {
+      "name": "com.web",
+      "routes": {
+        "/Hello": "Hello",
+        "/service.Hello": "service.Hello",
+        "/date": "Date"
+      }
+    }
+  ]
+}
