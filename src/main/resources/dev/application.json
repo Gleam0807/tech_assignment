@@ -1,7 +1,7 @@
 {
   "default": "was",
   "port": 8090,
-  "blocked_extension": "exe,bat",
+  "blocked_extension": "exe,bat,egg",
   "servers": [
     {
       "server_name": "was",
