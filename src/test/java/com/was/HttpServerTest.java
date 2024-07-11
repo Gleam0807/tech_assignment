@@ -69,7 +69,7 @@ public class HttpServerTest {
 
     @Test
     public void notFound() throws Exception {
-        URL url = new URL("http://localhost:8090/nonexistent");
+        URL url = new URL("http://localhost:8090/notfound");
         HttpURLConnection connection = (HttpURLConnection) url.openConnection();
         connection.setRequestMethod("GET");
 
